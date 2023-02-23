@@ -52,6 +52,15 @@
 .institucional__video {
     width: 100vw;
 }
+@media screen and (min-width: 678px) {
+    .institucional__contacto-email {
+        display: block;
+    }
+    .institucional__video{
+        width: 100%;
+    }
+
+}
 @media screen and (min-width: 1024px) {
     .institucional__contenido {
         width: 100%;
@@ -61,8 +70,7 @@
     }
 
     .institucional__video {
-        align-self: center;
-
+        align-self: flex-end;
         width: 375px;
     }
 
